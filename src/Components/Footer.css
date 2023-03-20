@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+footer a {
+  color: lightgreen;
+}
+
+@media only screen and (max-width: 500px) {
+  footer a,
+  h3 {
+    font-size: 1rem;
+  }
+}
